@@ -7,7 +7,12 @@ Author: Jonn Mostovoy
 Copyright: 2015 ILDesign
 Build-type: Simple
 Cabal-version: >=1.10
-Executable demo
+Library
+  Build-depends: base
+  Exposed-modules: FirstVersion
+  Hs-source-dirs: src
+  Default-language: Haskell2010
+Executable evolve-demo
   Ghc-options: -Wall
   Main-is: Main.hs
   Build-depends: base

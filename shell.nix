@@ -8,7 +8,7 @@ let
       mkDerivation {
         pname = "evolve";
         version = "0.0.1";
-        sha256 = "0";
+        src = ./.;
         isLibrary = false;
         isExecutable = true;
         buildDepends = [ base ];
