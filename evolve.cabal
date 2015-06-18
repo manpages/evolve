@@ -1,0 +1,15 @@
+Name: evolve
+Version: 0.0.1
+Synopsis: Small library for composing incomplete (evolving) models
+Homepage: http://memorici.de
+License: MIT
+Author: Jonn Mostovoy
+Copyright: 2015 ILDesign
+Build-type: Simple
+Cabal-version: >=1.10
+Executable demo
+  Ghc-options: -Wall
+  Main-is: Main.hs
+  Build-depends: base
+  Hs-source-dirs: src
+  Default-language: Haskell2010
